@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-        image: us-east4-docker.pkg.dev/qwiklabs-gcp-03-77c61ee5b3a4/my-repository/hello-cloudbuild
+        image: us-east4-docker.pkg.dev/qwiklabs-gcp-03-77c61ee5b3a4/my-repository/hello-cloudbuild@sha256:8be43f968a935c9759ddb72489a277cc3cf4e5db3e972833d5f3c7a24bb6ccee
         ports:
         - containerPort: 8080
